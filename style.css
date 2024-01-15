@@ -1,0 +1,445 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto sans-serif';
+}
+
+
+/*fin du body*/
+
+
+/*début de la navbar*/
+.bar {
+    display: flex;
+
+}
+.bard{ 
+    width: 50%;
+    background-color: #2196f3;
+}
+main nav{
+    width: 50%;
+}
+
+main nav ul {
+    display: flex;
+    align-items: center;
+    background-color: #2196f3;
+    height: 80px;
+    color: white;
+    font-weight: bolder;
+    list-style: none;
+    justify-content: space-evenly;
+    font-family: Roboto, sans-serif;
+    font-weight: bolder;
+    font-size: 1.rem;
+    margin: 0px;
+    padding: 0px;
+}
+
+main nav ul li a:hover {
+    color: #e91e63;
+}
+
+main {
+    margin: 0;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+}
+
+.presentation p a {
+    color: #2196f3;
+    text-decoration: none;
+    border-top: 4px solid #2196f3;
+    border-radius: 20px;
+    padding: 0 5px 0 5px;
+    border-right: 4px solid #e91e63;
+    border-left: 4px solid #2196f3;
+    border-bottom: 4px solid #e91e63;
+    font-size: 25px;
+    font-weight: bolder;
+    text-decoration: none;
+    padding: 0 5px;
+
+   
+}
+ a {
+   color: white;
+    text-decoration: none;
+   
+   
+}
+
+
+/*fin de la navbar*/
+
+
+/*debut  du header*/
+
+.contenu {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 30px;
+     margin: 0 ;
+    background-image: url(image/BLU.jpg);
+    color: #e91e63;
+    font-weight: bolder;
+    font-family: Roboto, sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+p{
+    margin:10px;
+}
+.présentation {
+    border: 5px solid blue;
+    font-size: 30px;
+    height: 100vh;
+    width: 40%;
+}
+
+.img {
+    max-width: 100%;
+    max-height: AUTO;
+    margin-bottom: -9px;
+}
+
+
+/* fin du header et début de la section à propos*/
+
+.apropos {
+    display: flex;
+    height:500px;
+    width: 100%;
+}
+
+.apropos {
+    /* height: 100vh; */
+    box-shadow: 5px white;
+    margin-bottom: 50px;
+    height:600px;
+}
+
+
+div.imgconteneur div {
+    background-color: #2196f3;
+    height: 50%;
+    margin: 0 auto;
+    margin-top: 150px;
+    margin-left: 100px;
+   
+}
+
+div.imgconteneur div img {
+    margin: 0 auto;
+    margin-top: 11%;
+    margin-left: 12%;
+    height: 100%;
+    width: 88%;
+}
+
+.textabout {
+    width:40%;
+    margin: 0 auto;
+    margin-top: 100px;
+    font-size: 1.2rem;
+    padding: 30px 30PX 30px 30px;
+    font-family: Roboto, sans-serif;
+    border: 2px solid white;
+    box-shadow:10px 10px 10px 10px rgb(248, 248, 248);
+    text-align: justify;
+    
+   
+}
+
+.textabout h1 {
+    margin: 0;
+    color: #2196f3;
+}
+
+.textabout a {
+    color: #2196f3;
+    text-decoration: none;
+    border-top: 4px solid #2196f3;
+    border-radius: 20px;
+    padding: 5px 5px 5px 5px;
+    border-right: 4px solid #e91e63;
+    border-left: 4px solid #2196f3;
+    border-bottom: 4px solid #e91e63;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+
+
+/*FIN D'A PROPOS ET DÉBUT DES COMPÉTENCES*/
+
+.COMPÉTENCES {
+    width: 100%;
+    height: 100vh;
+    font-family: Roboto, sans-serif;
+}
+
+.compétences {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 50%;
+    width: 100%;
+    text-align: justify;
+}
+
+div.compétences div {
+    width:15%;
+    height: 55%;
+    background-color: white;
+    border: 5PX SOLID #2196f3;
+    border-radius: 50px solid;
+    border-left: 4px solid #2196f3;
+    border-right: 4px solid #e91e63;
+    border-bottom: 4px solid #e91e63;
+    border-top: 4px solid #2196f3;
+    box-shadow: 10px 10px 10px 10px rgb(248, 248, 248);
+    padding: 10px;
+}
+
+
+div.compétences div h2 {
+    border: 5PX SOLID white;
+    border-radius: 50px;
+    color: #e91e63;
+}
+
+.PC {
+    margin: 0 auto;
+    width: 60%;
+    font-weight: bolder;
+    font-size: 2rem;
+    font-family: Roboto, sans-serif;
+}
+
+.travaux div {
+    height: 40%;
+    width: 15%;
+    box-shadow: 10px 10px 10px 10px rgb(248, 248, 248);
+    background-color: #2196f3;
+}
+
+
+.travaux {
+    height: 40vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.txv1 img {
+
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.txv2 img {
+   
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.txv3 img {
+    
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.txv4 img{
+   
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.REA {
+    margin-top: 100PX;
+}
+
+
+/* fin des travaux*/
+
+.social a {
+    border: none;
+    padding: 0;
+}
+
+.social {
+    border: none;
+    display: flex;
+}
+
+.social p {
+    width: 10%;
+    font-weight: bolder;
+    font-family: Roboto, sans-serif;
+    margin-top: 50px;
+}
+
+.adress {
+    margin-left: 100px;
+    font-size: 2rem;
+    font-family: Roboto, sans-serif;
+}
+
+
+/*le mobile disign*/
+
+@media screen and (max-width:780px) {
+    * {
+        box-sizing: border-box;
+    }
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'roboto sans-serif';
+        overflow-x: hidden;
+        height:3210PX;
+    }
+    main nav ul {
+        font-size: 0.7rem;
+        margin: 0px;
+        padding: 0px;
+
+    }
+    main nav {
+        width: 100%;
+    }
+    .bard{
+        display:none ;
+    }
+    .contactheader {
+       
+        text-decoration: none;
+        font-size:23;
+        
+    }
+    .contenu {
+        display: block;
+        width: 100%;
+        align-items: center;
+        justify-content: space-evenly;
+        font-size: 25px;
+        /**margin-top: -0.5em;
+    /* margin: 0 auto;*/
+        background-image: url(image/BLU.jpg);
+        color: #e91e63;
+        font-weight: bolder;
+        font-family: Roboto, sans-serif;
+    }
+    .presentation p {
+        margin: 0;
+    }
+    .presentation {
+        margin-left: 37px;
+        padding-top: 20px;
+    }
+    .deco2 {
+        height: 608px;
+    }
+    .apropos {
+        flex-direction: column;
+    }
+    .textabout {
+        width: 100%;
+        font-size: 1.2rem;
+        margin-top:7px;
+        text-align: justify;
+    }
+    .imgconteneur {
+        display: none;
+    }
+    .textabout a {
+        font-size: 25px;
+        margin-left: 80px;
+        padding: 0 5px;
+    }
+    .textabout p {
+        margin-top: 40;
+    }
+    .PC {
+        font-size: 20PX;
+       margin-top: 120px;
+       width: 85%;
+       margin-bottom: 20px;
+    }
+    .compétences {
+        display: block;
+    }
+    div.compétences div {
+        width: 57%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    div.compétences div h2 {
+        width: 100%;
+        margin: 0;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    .COMPÉTENCES {
+        width: 100%;
+        height: 100%;
+        font-family: Roboto, sans-serif;
+    }
+    div.compétences div p {
+        display: none;
+    }
+    .travaux div {
+        height: 330px;
+        width: 80%;
+        margin-bottom: 30PX;
+        margin-left: 40PX;
+    }
+    .travaux {
+        display: block;
+          height: 60%;
+    } 
+    .REA{
+        margin-bottom: 40px;
+        margin-top: -58px;
+        width: 148px;
+    }
+    .travaux div {
+        height:100%;
+        width: 50%;
+        box-shadow: 10px 10px 10px 10px rgb(248, 248, 248);
+       margin-left: 100px;
+    }
+    
+    .CONTACT {
+        margin-top: 50px;
+        height: 100%;
+    }
+    .adress {
+        margin-left: 35px;
+        font-size: 20PX;
+        font-family: Roboto, sans-serif;
+    }
+    .social {
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: -31px;
+        margin-left: -45px;
+    }
+}
